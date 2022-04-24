@@ -3,7 +3,6 @@ import { useState, useContext } from "react";
 import { login } from "../../context/authContext/apiCalls";
 import { AuthContext } from "../../context/authContext/AuthContext";
 import "./login.scss";
-import { ArrowDropDown } from "@material-ui/icons";
 
 export const Login = () => {
   const [email, setEmail] = useState("");
